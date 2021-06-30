@@ -31,6 +31,6 @@ public class Checkers {
     }
 
     public static boolean check_operator(String s) {
-        return s.equals("-") | s.equals("*") | s.equals("/") | s.equals("*");
+        return s.equals("-") | s.equals("+") | s.equals("/") | s.equals("*");
     }
 }
